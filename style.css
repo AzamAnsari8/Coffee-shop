@@ -2,9 +2,12 @@
     background-color: rgba(20, 2, 0, 0.8);
 }
 
-.navv{
-    position: absolute;
-    bottom: 1px;
+header nav{
+    padding: 0 !important;
+}
+
+header p{
+    margin-bottom: 0 !important;
 }
 
 .top-bg-img {
@@ -34,10 +37,6 @@
     border-radius: 10px;
 }
 
-.process-c{
-    color: #b68834;
-}
-
 .bg-img-wht{
     background-image: url(images/menu-bg.jpg.webp);
     padding: 100px 0;
@@ -46,6 +45,11 @@
 
 .doller{
     color: #b68834;
+}
+
+.eco-section img{
+    margin-bottom: 30px;
+    width: 100%;
 }
 
 .clr-g{
@@ -70,4 +74,10 @@
 
 .footer{
     padding-top: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+    .navv{
+        display: none;
+    }
 }
